@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u2-%)x8-3bzlyi5_$#qpf5q0!h3que0le-6asvr*z%!i^v!t5r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False;
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://kodev.azurewebsites.net']
 
 
 # Application definition
